@@ -43,5 +43,8 @@
 
 Датасет находится по ссылке http://213.131.1.132:25621/owncloud/index.php/apps/files/?dir=/wine_problem/3d_wine_csv&fileid=280536
 
+Дополнительно были повторно (примерно месяц-полтора после открытия бутылок) записаны 3d спектры флуоресценции 33 вин.
+Их спектры флуоресценции находятся по ссылке: http://213.131.1.132:25621/owncloud/index.php/apps/files/?dir=/wine_problem/3d_wine_povtor_csv&fileid=280842
+
 # Оптическое поглощение
 Samples were diluted by 20 times with distilled water.
