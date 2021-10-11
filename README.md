@@ -1,8 +1,8 @@
 # wine_spectroscopy
 
-# 0. Эксперимент
+# 1. Флуоресцентная спектроскопия
 
-### Флуоресцентная спектроскопия
+### 1.1. Эксперимент
 
 3D спектры флуоресценции были получены на спектрофлуориметре Shimadzu RF-6000. Параметры регистрации приведены в Таблице 1.
 Спектры вин регистрировались сразу после вскрытия бутылки, если в таблице не указано отдельно. Дополнительно образцы НЕ разбавлялись водой.
@@ -10,15 +10,15 @@
 Таблица 1. Параметры регистрации 3D спектров флуоресценции.
 | Parameter	| |
 | --- | --- |
-| EX Wavelength Start:	| 250,0 nm |
-| EX Wavelength End:	| 500,0 nm |
-| EX Wavelength increment:	| 5,0 nm |
-| EM Wavelength Start:	| 250,0 nm |
-| EM Wavelength End:	| 800,0 nm |
-| EX Wavelength increment:	| 1,0 nm |
+| EX Wavelength Start:	| 250.0 nm |
+| EX Wavelength End:	| 500.0 nm |
+| EX Wavelength increment:	| 5.0 nm |
+| EM Wavelength Start:	| 250.0 nm |
+| EM Wavelength End:	| 800.0 nm |
+| EX Wavelength increment:	| 1.0 nm |
 | Scan Speed:	| 6000 nm/min |	
-| EX Bandwidth:	| 3,0 nm |
-| EM Bandwidth: |	3,0 nm |
+| EX Bandwidth:	| 3.0 nm |
+| EM Bandwidth: |	3.0 nm |
 
 ![plot](https://github.com/oesarmanova/wine_spectroscopy/blob/images/Fig_1.png)
 
@@ -28,6 +28,10 @@
 2. Второй порядок от накачки
 3. Шумы
 
+### 1.2. Датасет
 
-### Оптическое поглощение
+Набор данных состоит из 303 3D спектров флуоресценции неразбавленных белых вин.
+Каждый 3d спектр с номером num записан в отдельный файл 'winenum_CorrectionData.csv'. 
+
+# Оптическое поглощение
 Samples were diluted by 20 times with distilled water.
